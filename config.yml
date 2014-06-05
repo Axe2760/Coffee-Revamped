@@ -1,0 +1,43 @@
+#Default configuration for coffee
+send-enable-message: true
+
+#If you mess this up, you'll have to regenerate a new config (by deleting the old one)
+# Potion values are : SPEED, SLOW, FAST_DIGGING, SLOW_DIGGING,
+# INCREASE_DAMAGE, HEAL, HARM, JUMP, CONFUSION, REGENERATION
+# DAMAGE_RESISTANCE, FIRE-RESISTANCE, WATER_BREATHING, INVISIBILITY
+# BLINDNESS, NIGHT_VISION, HUNGER, WEAKNESS, POISON, WITHER,
+# HEALTH_BOOST, ABSORPTION, SATURATION
+# Valid values for the duration and amplification are integers, duration is in ticks
+
+coffeeBasePotionEffect:
+  potionEffectType: FAST_DIGGING
+  potionDuration: 14400
+  potionAmplification: 1
+
+spices:
+  Cinnamon:
+    colorNumber: 6
+
+    potionEffectType: JUMP
+    potionDuration: 2400
+    potionAmplification: 2
+
+    negativePotionEffectType: CONFUSION
+    potionDuration: 300
+    potionAmplification: 2
+
+    description: 'Cinnamon makes you jump, but beware, you might get confused!'
+
+  Ginger:
+    colorNumber: e
+
+    potionEffectType: SPEED
+    potionDuration: 4800
+    potionAmplification: 1
+
+    negativePotionEffectType: POISON
+    potionDuration: 50
+    potionAmplification: 1
+
+    description: "Makes you speedy, try not to get speed sick!"
+

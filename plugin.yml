@@ -1,0 +1,6 @@
+name: Coffee
+version: 2.0
+description: Make some coffee! :D
+author: Axe2760
+main: us.axe2760.coffee.Coffee
+prefix: Coffee

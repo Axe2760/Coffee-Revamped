@@ -1,5 +1,6 @@
 #Default configuration for coffee
 send-enable-message: true
+add-spice-message: 'Right-click to add a spice!'
 
 #If you mess this up, you'll have to regenerate a new config (by deleting the old one)
 # Potion values are : SPEED, SLOW, FAST_DIGGING, SLOW_DIGGING,
@@ -23,8 +24,8 @@ spices:
     potionAmplification: 2
 
     negativePotionEffectType: CONFUSION
-    potionDuration: 300
-    potionAmplification: 2
+    negativePotionDuration: 300
+    negativePotionAmplification: 2
 
     description: 'Cinnamon makes you jump, but beware, you might get confused!'
 
@@ -36,8 +37,8 @@ spices:
     potionAmplification: 1
 
     negativePotionEffectType: POISON
-    potionDuration: 50
-    potionAmplification: 1
+    negativePotionDuration: 50
+    negativePotionAmplification: 1
 
     description: "Makes you speedy, try not to get speed sick!"
 
